@@ -201,6 +201,6 @@ def algoritmo_genetico(populacao_tamanho=4, geracoes=4, taxa_mutacao=0.8, taxa_c
 
     return historico_fitness
 
-PROFUNDIDADE_MAXIMA = 3
+PROFUNDIDADE_MAXIMA = 2
 
 algoritmo_genetico()
