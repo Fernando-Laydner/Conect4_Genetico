@@ -19,7 +19,7 @@ class Jogador:
             raise NotImplementedError("Apenas o jogadores do tipo humano.")
 
 class Jogadores:
-    def __init__(self, players: Jogador):
+    def __init__(self, players):
         self.players = players
         self.idx = 0
 

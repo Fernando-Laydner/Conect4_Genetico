@@ -1,6 +1,5 @@
 import random
 import matplotlib.pyplot as plt
-from scipy.special import powm1
 from tqdm import tqdm
 from copy import deepcopy
 
@@ -201,6 +200,6 @@ def algoritmo_genetico(populacao_tamanho=4, geracoes=4, taxa_mutacao=0.8, taxa_c
 
     return historico_fitness
 
-PROFUNDIDADE_MAXIMA = 2
+PROFUNDIDADE_MAXIMA = 3
 
 algoritmo_genetico()
